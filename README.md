@@ -230,7 +230,7 @@ python python/consumer_finance_complaints.py --mode company --company "Synchrony
 ```
 
 Endpoints: `GET /complaints`, `/companies/search`, `/companies/trending`, `/company`,
-`/products/benchmark` · host placeholder `us-consumer-finance-complaint-fair-lending-api.p.rapidapi.com`
+`/products/benchmark` · host `us-consumer-finance-complaint-fair-lending-api.p.rapidapi.com`
 
 ### FEMA disaster declarations + NFIP flood claims
 
@@ -250,7 +250,7 @@ NFIP payments are often zero or null; a zero payment is not a denied claim. The 
 carries `totalsCover` so nobody mistakes row totals for the whole population.
 
 Endpoints: `GET /disasters`, `/disaster`, `/assistance`, `/assistance/counties`,
-`/flood/claims`, `/county` · host placeholder `us-disaster-flood-loss-intelligence-api.p.rapidapi.com`
+`/flood/claims`, `/county` · host `us-disaster-flood-loss-intelligence-api.p.rapidapi.com`
 
 ### SEC Form D, Form 4 and 13F capital-flow signals
 
