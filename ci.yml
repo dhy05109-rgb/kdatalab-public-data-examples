@@ -1,0 +1,54 @@
+name: checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.9", "3.12"]
+        node-version: ["18", "20"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Compile Python
+        run: python -m py_compile python/*.py
+
+      - name: Run every Python demo and help screen
+        run: |
+          for file in python/*.py; do
+            case "$file" in *kdatalab_client.py) continue;; esac
+            python "$file" --help > /dev/null
+            python "$file" --demo > /dev/null
+          done
+
+      - name: Syntax-check JavaScript
+        run: for file in javascript/*.mjs; do node --check "$file"; done
+
+      - name: Run every JavaScript demo
+        run: |
+          for file in javascript/*.mjs; do
+            case "$file" in *client.mjs) continue;; esac
+            node "$file" --demo > /dev/null
+          done
+
+      - name: Shell syntax and placeholder guard
+        run: |
+          bash -n curl/quickstart.sh
+          if grep -rn '\[PENDING_' --exclude-dir=.git --exclude-dir=__pycache__ --exclude=PLACEHOLDERS.md --exclude=ci.yml .; then
+            echo "::error::A bracketed placeholder marker is still in the repository - replace it before shipping."
+            exit 1
+          fi
