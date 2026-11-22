@@ -1,0 +1,254 @@
+{
+  "meta": {
+    "endpoint": "/premium",
+    "symbols": [
+      "BTC",
+      "ETH",
+      "XRP"
+    ],
+    "krExchange": "both",
+    "globalExchange": "both",
+    "fx": {
+      "usdKrw": 1339.44,
+      "rateDate": "2026-11-20",
+      "source": "Frankfurter (European Central Bank reference rate)",
+      "fallbackUsed": false
+    },
+    "count": 3,
+    "warnings": [],
+    "fetchedAt": "2026-11-21T11:07:41.300Z",
+    "note": "kimchiPremiumPct is the primary Korean venue (Upbit, else Bithumb) against the mean global USD price; venues[] holds every Korean-vs-global pair so a specific spread can be read directly. premiumPct > 0 means the Korean price is higher."
+  },
+  "data": [
+    {
+      "symbol": "BTC",
+      "kimchiPremiumPct": 2.86,
+      "spreadUsd": 1654.5572,
+      "spreadKrw": 2216180,
+      "headlineVenue": {
+        "krExchange": "upbit",
+        "globalExchange": "mean"
+      },
+      "bestVenue": {
+        "krExchange": "bithumb",
+        "globalExchange": "coinbase",
+        "premiumPct": 2.92,
+        "spreadUsd": 1691.5729,
+        "spreadKrw": 2265760
+      },
+      "venues": [
+        {
+          "krExchange": "bithumb",
+          "globalExchange": "coinbase",
+          "premiumPct": 2.92,
+          "spreadUsd": 1691.5729,
+          "spreadKrw": 2265760
+        },
+        {
+          "krExchange": "bithumb",
+          "globalExchange": "kraken",
+          "premiumPct": 2.9,
+          "spreadUsd": 1677.2679,
+          "spreadKrw": 2246600
+        }
+      ],
+      "krExchanges": {
+        "upbit": {
+          "priceKrw": 79707000,
+          "change24hPct": -1.76,
+          "volume24hKrw": 349442872342,
+          "high24hKrw": 81425000,
+          "low24hKrw": 76433000,
+          "quotedAt": "2026-11-21T11:07:41.091Z",
+          "priceUsd": 59507.705,
+          "volume24hUsd": 260887290
+        },
+        "bithumb": {
+          "priceKrw": 79747000,
+          "change24hPct": -5.19,
+          "volume24hKrw": 145742427662,
+          "high24hKrw": 84390000,
+          "low24hKrw": 76304000,
+          "quotedAt": "2026-11-21T11:07:30.143Z",
+          "priceUsd": 59537.568,
+          "volume24hUsd": 108808478
+        }
+      },
+      "globalExchanges": {
+        "kraken": {
+          "priceUsd": 57860.3,
+          "change24hPct": -1.61,
+          "volume24hUsd": 634573910,
+          "high24hUsd": 62104.3,
+          "low24hUsd": 55100
+        },
+        "coinbase": {
+          "priceUsd": 57845.995,
+          "base": "BTC",
+          "currency": "USD"
+        }
+      },
+      "fxUsdKrw": 1339.44,
+      "market": {
+        "globalReferenceUsd": 57853.148,
+        "globalVenuesUsed": 2,
+        "krVenuesUsed": 2
+      }
+    },
+    {
+      "symbol": "ETH",
+      "kimchiPremiumPct": 2.81,
+      "spreadUsd": 45.9901,
+      "spreadKrw": 61601,
+      "headlineVenue": {
+        "krExchange": "upbit",
+        "globalExchange": "mean"
+      },
+      "bestVenue": {
+        "krExchange": "upbit",
+        "globalExchange": "coinbase",
+        "premiumPct": 2.82,
+        "spreadUsd": 46.1576,
+        "spreadKrw": 61825
+      },
+      "venues": [
+        {
+          "krExchange": "upbit",
+          "globalExchange": "coinbase",
+          "premiumPct": 2.82,
+          "spreadUsd": 46.1576,
+          "spreadKrw": 61825
+        },
+        {
+          "krExchange": "bithumb",
+          "globalExchange": "coinbase",
+          "premiumPct": 2.82,
+          "spreadUsd": 46.1576,
+          "spreadKrw": 61825
+        }
+      ],
+      "krExchanges": {
+        "upbit": {
+          "priceKrw": 2257000,
+          "change24hPct": 0.89,
+          "volume24hKrw": 179606295400,
+          "high24hKrw": 2280000,
+          "low24hKrw": 2125000,
+          "quotedAt": "2026-11-21T11:07:39.468Z",
+          "priceUsd": 1685.0326,
+          "volume24hUsd": 134090587
+        },
+        "bithumb": {
+          "priceKrw": 2257000,
+          "change24hPct": -4.97,
+          "volume24hKrw": 83993117381,
+          "high24hKrw": 2381000,
+          "low24hKrw": 2126000,
+          "quotedAt": "2026-11-21T11:07:21.771Z",
+          "priceUsd": 1685.0326,
+          "volume24hUsd": 62707637
+        }
+      },
+      "globalExchanges": {
+        "kraken": {
+          "priceUsd": 1639.21,
+          "change24hPct": 1.23,
+          "volume24hUsd": 155281968,
+          "high24hUsd": 1757.5,
+          "low24hUsd": 1536
+        },
+        "coinbase": {
+          "priceUsd": 1638.875,
+          "base": "ETH",
+          "currency": "USD"
+        }
+      },
+      "fxUsdKrw": 1339.44,
+      "market": {
+        "globalReferenceUsd": 1639.0425,
+        "globalVenuesUsed": 2,
+        "krVenuesUsed": 2
+      }
+    },
+    {
+      "symbol": "XRP",
+      "kimchiPremiumPct": 2.69,
+      "spreadUsd": 0.0242,
+      "spreadKrw": 32,
+      "headlineVenue": {
+        "krExchange": "upbit",
+        "globalExchange": "mean"
+      },
+      "bestVenue": {
+        "krExchange": "bithumb",
+        "globalExchange": "coinbase",
+        "premiumPct": 2.78,
+        "spreadUsd": 0.0249,
+        "spreadKrw": 33
+      },
+      "venues": [
+        {
+          "krExchange": "bithumb",
+          "globalExchange": "coinbase",
+          "premiumPct": 2.78,
+          "spreadUsd": 0.0249,
+          "spreadKrw": 33
+        },
+        {
+          "krExchange": "bithumb",
+          "globalExchange": "kraken",
+          "premiumPct": 2.77,
+          "spreadUsd": 0.0249,
+          "spreadKrw": 33
+        }
+      ],
+      "krExchanges": {
+        "upbit": {
+          "priceKrw": 1233,
+          "change24hPct": -1.67,
+          "volume24hKrw": 234380101177,
+          "high24hKrw": 1259,
+          "low24hKrw": 1191,
+          "quotedAt": "2026-11-21T11:07:39.788Z",
+          "priceUsd": 0.92053395,
+          "volume24hUsd": 174983651
+        },
+        "bithumb": {
+          "priceKrw": 1234,
+          "change24hPct": -4.04,
+          "volume24hKrw": 117792884182,
+          "high24hKrw": 1290,
+          "low24hKrw": 1190,
+          "quotedAt": "2026-11-21T11:07:25.390Z",
+          "priceUsd": 0.92128054,
+          "volume24hUsd": 87941889
+        }
+      },
+      "globalExchanges": {
+        "kraken": {
+          "priceUsd": 0.89641,
+          "change24hPct": -1.35,
+          "volume24hUsd": 82057916,
+          "high24hUsd": 0.95862,
+          "low24hUsd": 0.85918
+        },
+        "coinbase": {
+          "priceUsd": 0.89635,
+          "base": "XRP",
+          "currency": "USD"
+        }
+      },
+      "fxUsdKrw": 1339.44,
+      "market": {
+        "globalReferenceUsd": 0.89638,
+        "globalVenuesUsed": 2,
+        "krVenuesUsed": 2
+      }
+    }
+  ],
+  "_sample": {
+    "kind": "captured",
+    "note": "Trimmed live response (3 coins, 2 venue pairs each) captured from the Korean Kimchi Premium API.",
+    "capturedAt": "2026-11-21T11:07:41Z"
+  }
+}

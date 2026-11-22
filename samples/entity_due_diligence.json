@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "endpoint": "/due-diligence",
+    "name": "Tesla",
+    "country": "US",
+    "limit": 3,
+    "regulationWindowDays": 365,
+    "sources": {
+      "gleif": {
+        "ok": true,
+        "url": "https://api.gleif.org/api/v1/lei-records?filter%5Bentity.legalName%5D=Tesla&filter%5Bentity.legalAddress.country%5D=US&page%5Bsize%5D=5&page%5Bnumber%5D=1",
+        "total": 10
+      },
+      "propublica": {
+        "ok": true,
+        "url": "https://projects.propublica.org/nonprofits/api/v2/search.json?q=Tesla",
+        "total": 88
+      },
+      "federalRegister": {
+        "ok": true,
+        "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=Tesla&conditions%5Bpublication_date%5D%5Bgte%5D=2025-11-21&per_page=3&page=1&order=newest&format=json&fields%5B%5D=title&fields%5B%5D=type&fields%5B%5D=abstract&fields%5B%5D=excerpts&fields%5B%5D=document_number&fields%5B%5D=html_url&fields%5B%5D=pdf_url&fields%5B%5D=publication_date&fields%5B%5D=agencies",
+        "total": 49
+      }
+    },
+    "disclaimer": "Signals are drawn from public registers and are not a legal opinion, a credit rating or a screening result. Verify the LEI, the Form 990 and the Federal Register document before acting.",
+    "warnings": [
+      "gleif: No direct parent is reported to GLEIF for this LEI (a reporting exception or none exists).",
+      "gleif: No ultimate parent is reported to GLEIF for this LEI."
+    ],
+    "fetchedAt": "2026-11-21T17:45:43.865Z"
+  },
+  "summary": {
+    "leiMatched": {
+      "lei": "54930043XZGB27CTOV49",
+      "legalName": "TESLA, INC.",
+      "entityStatus": "ACTIVE",
+      "jurisdiction": "US-TX",
+      "country": "US",
+      "parents": {
+        "direct": null,
+        "ultimate": null
+      }
+    },
+    "nonprofitMatched": {
+      "ein": 320516682,
+      "einFormatted": "32-0516682",
+      "name": "Tesla Works",
+      "state": "MN",
+      "nteeCode": "B90",
+      "latestFinancials": null
+    },
+    "regulationMentions": 49,
+    "signals": [
+      "LEI matched: TESLA, INC. (54930043XZGB27CTOV49), status ACTIVE, jurisdiction US-TX.",
+      "No ultimate parent is reported to GLEIF.",
+      "US nonprofit match: Tesla Works (EIN 32-0516682), no Form 990 financial data available.",
+      "49 Federal Register documents mention this name in the last 365 days."
+    ],
+    "flags": [
+      {
+        "code": "NONPROFIT_NO_FINANCIALS",
+        "severity": "low",
+        "detail": "The nonprofit matched but has no digitised Form 990 financial rows."
+      },
+      {
+        "code": "HIGH_REGULATORY_ATTENTION",
+        "severity": "medium",
+        "detail": "20 or more Federal Register documents mention this name in the window; read them before relying on the entity."
+      }
+    ]
+  },
+  "entities": {
+    "count": 3,
+    "upstreamTotal": 10,
+    "results": [
+      {
+        "lei": "54930043XZGB27CTOV49",
+        "legalName": "TESLA, INC.",
+        "legalNameLanguage": "en",
+        "otherNames": [],
+        "jurisdiction": "US-TX",
+        "legalForm": "C5K7",
+        "category": "GENERAL",
+        "subCategory": null,
+        "entityStatus": "ACTIVE",
+        "creationDate": "2024-06-14T00:00:00Z",
+        "registeredAs": "0805587591",
+        "registeredAt": "RA000637",
+        "legalAddress": {
+          "lines": [
+            "C/O C T Corporation System",
+            "1999 Bryan Street",
+            "Suite 900"
+          ],
+          "city": "Dallas",
+          "region": "US-TX",
+          "postalCode": "75201",
+          "country": "US"
+        },
+        "headquartersAddress": {
+          "lines": [
+            "1 Tesla Road"
+          ],
+          "city": "Austin",
+          "region": "US-TX",
+          "postalCode": "78725",
+          "country": "US"
+        },
+        "registration": {
+          "status": "ISSUED",
+          "initialRegistrationDate": "2018-01-04T15:35:00Z",
+          "lastUpdateDate": "2026-05-04T05:58:37Z",
+          "nextRenewalDate": "2027-05-14T15:06:01Z",
+          "managingLou": "5493001KJTIIGC8Y1R12",
+          "corroborationLevel": "FULLY_CORROBORATED",
+          "conformityFlag": "CONFORMING"
+        },
+        "source": "GLEIF",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/54930043XZGB27CTOV49",
+        "recordUrl": "https://search.gleif.org/#/record/54930043XZGB27CTOV49",
+        "parents": {
+          "direct": null,
+          "ultimate": null
+        }
+      },
+      {
+        "lei": "549300LFXY1VG8DI7B68",
+        "legalName": "Tesla Ins Co",
+        "legalNameLanguage": "en",
+        "otherNames": [
+          "BALBOA INSURANCE COMPANY",
+          "TESLA INSURANCE COMPANY"
+        ],
+        "jurisdiction": "US",
+        "legalForm": "8888",
+        "category": "GENERAL",
+        "subCategory": null,
+        "entityStatus": "ACTIVE",
+        "creationDate": "1948-02-06T00:00:00Z",
+        "registeredAs": "24813",
+        "registeredAt": "RA000746",
+        "legalAddress": {
+          "lines": [
+            "45500 FREMONT BLVD."
+          ],
+          "city": "FREMONT",
+          "region": "US-CA",
+          "postalCode": "94538",
+          "country": "US"
+        },
+        "headquartersAddress": {
+          "lines": [
+            "12832 S. FRONTRUNNER BLVD."
+          ],
+          "city": "DRAPER",
+          "region": "US-UT",
+          "postalCode": "84020",
+          "country": "US"
+        },
+        "registration": {
+          "status": "ISSUED",
+          "initialRegistrationDate": "2019-01-11T15:33:00Z",
+          "lastUpdateDate": "2026-08-17T10:52:06Z",
+          "nextRenewalDate": "2027-09-07T06:33:00Z",
+          "managingLou": "5493001KJTIIGC8Y1R12",
+          "corroborationLevel": "FULLY_CORROBORATED",
+          "conformityFlag": "CONFORMING"
+        },
+        "source": "GLEIF",
+        "sourceUrl": "https://api.gleif.org/api/v1/lei-records/549300LFXY1VG8DI7B68",
+        "recordUrl": "https://search.gleif.org/#/record/549300LFXY1VG8DI7B68",
+        "parents": {
+          "direct": null,
+          "ultimate": null
+        }
+      }
+    ]
+  },
+  "nonprofits": {
+    "count": 3,
+    "upstreamTotal": 88,
+    "results": [
+      {
+        "ein": 320516682,
+        "einFormatted": "32-0516682",
+        "name": "Tesla Works",
+        "city": "Minneapolis",
+        "state": "MN",
+        "nteeCode": "B90",
+        "nteeGroup": "B",
+        "subsectionCode": 3,
+        "rulingDate": null,
+        "taxPeriod": null,
+        "sourceUrl": "https://projects.propublica.org/nonprofits/api/v2/organizations/320516682.json",
+        "publicUrl": "https://projects.propublica.org/nonprofits/organizations/320516682"
+      }
+    ]
+  },
+  "regulations": {
+    "count": 3,
+    "upstreamTotal": 49,
+    "windowDays": 365,
+    "results": [
+      {
+        "documentNumber": "2026-23748",
+        "title": "Self-Regulatory Organizations; 24X National Exchange LLC; Notice of Filing of a Proposed Rule Change To Adopt Rules To Govern the Trading of Options on the Exchange",
+        "type": "Notice",
+        "typeCode": "NOTICE",
+        "agencies": [
+          {
+            "name": "Securities and Exchange Commission",
+            "slug": "securities-and-exchange-commission",
+            "id": 466
+          }
+        ],
+        "publicationDate": "2026-11-23",
+        "abstract": null,
+        "excerpt": "share: Diluted. Net sales. Gross Margin (%). Cash flow used in operations. Net Income. Target Corporation Diluted earnings per share. Net sales. Food & Beverage Net sales. Apparel & Accessories Net sales. Operating income: Rate (%). Tesla, Inc Net Income per share of common stocks attributable to common stockholders: diluted. Total Revenues. Total Automotive Revenue. Model 3/Y Production (#). Sup…",
+        "htmlUrl": "https://www.federalregister.gov/documents/2026/11/23/2026-23748/self-regulatory-organizations-24x-national-exchange-llc-notice-of-filing-of-a-proposed-rule-change",
+        "pdfUrl": "https://www.govinfo.gov/content/pkg/FR-2026-11-23/pdf/2026-23748.pdf"
+      },
+      {
+        "documentNumber": "2026-23650",
+        "title": "Self-Regulatory Organizations; MEMX LLC; Notice of Filing and Immediate Effectiveness of a Proposed Rule Change To Amend Its Rules To Permit the Listing of Binary Options Overlying Key Performance Indicators",
+        "type": "Notice",
+        "typeCode": "NOTICE",
+        "agencies": [
+          {
+            "name": "Securities and Exchange Commission",
+            "slug": "securities-and-exchange-commission",
+            "id": 466
+          }
+        ],
+        "publicationDate": "2026-11-20",
+        "abstract": null,
+        "excerpt": "Share: Diluted. Net Sales. Gross Margin (%). Cash Flow Used in Operations. Net Income. Target Corporation Diluted Earnings per Share. Net Sales. Food & Beverage Net Sales. Apparel & Accessories Net Sales. Operating Income: Rate (%). Tesla, Inc Net Income per Share of Common Stocks Attributable to Common Stockholders: Diluted. Total Revenues. Total Automotive Revenue. Model 3/Y Production (#). Sup…",
+        "htmlUrl": "https://www.federalregister.gov/documents/2026/11/20/2026-23650/self-regulatory-organizations-memx-llc-notice-of-filing-and-immediate-effectiveness-of-a-proposed",
+        "pdfUrl": "https://www.govinfo.gov/content/pkg/FR-2026-11-20/pdf/2026-23650.pdf"
+      }
+    ]
+  },
+  "_sample": {
+    "kind": "captured",
+    "note": "Trimmed live /due-diligence response for \"Tesla\" (2 entities, 1 nonprofit, 2 regulations).",
+    "capturedAt": "2026-11-22T02:31:00Z"
+  }
+}

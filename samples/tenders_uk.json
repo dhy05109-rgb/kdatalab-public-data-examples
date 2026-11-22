@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "endpoint": "/uk/tenders",
+    "country": "GB",
+    "stage": "tender",
+    "source": "contracts-finder",
+    "keyword": null,
+    "windowDays": 30,
+    "publishedFrom": "2026-10-20",
+    "limit": 1,
+    "count": 1,
+    "scanned": 99,
+    "uniqueNotices": 84,
+    "warnings": [],
+    "fetchedAt": "2026-11-19T17:41:42.532Z"
+  },
+  "data": [
+    {
+      "source": "Contracts Finder (UK)",
+      "ocid": "ocds-b5fd17-885825cf-7d1d-4a63-85a1-fb51981408e0",
+      "noticeId": "052f6aa6-0b4e-48e3-8aac-fb2484a150fa",
+      "title": "GB-Bootle: Stanley Road, Bootle - Roof Terrace Refurbishment Works",
+      "description": "Refurbishment and renewal of existing flat roof coverings to roof terraces serving six residential properties.",
+      "stage": "tender",
+      "status": "active",
+      "buyerName": "Plus Dane Housing Ltd.",
+      "buyerRegion": "Liverpool",
+      "valueAmount": 500000,
+      "valueCurrency": "GBP",
+      "publishedDate": "2026-11-18",
+      "deadlineDate": "2026-12-15T12:00:00Z",
+      "daysUntilDeadline": 26,
+      "cpvCodes": [
+        "45261900"
+      ],
+      "noticeType": "tender",
+      "procurementMethod": "open",
+      "mainCategory": "works",
+      "noticeUrl": "https://www.contractsfinder.service.gov.uk/Notice/052f6aa6-0b4e-48e3-8aac-fb2484a150fa"
+    }
+  ],
+  "_sample": {
+    "kind": "illustrative",
+    "note": "Illustrative row in the shape of a live /uk/tenders response (published OpenAPI example)."
+  }
+}

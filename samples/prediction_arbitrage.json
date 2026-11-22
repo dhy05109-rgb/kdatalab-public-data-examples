@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "endpoint": "/arbitrage",
+    "minSpreadPct": 1.0,
+    "minMatchScore": 0.5,
+    "matchedPairs": 0,
+    "count": 0,
+    "note": "With strict matching (score >= 0.5 and proper-noun agreement) this endpoint is often empty by design. Lower --min-match to inspect weaker pairs, and read each pair before trading on it."
+  },
+  "data": [],
+  "_sample": {
+    "kind": "illustrative",
+    "note": "Empty-result shape of /arbitrage, which is common with strict matching. Not a claim that no arbitrage exists."
+  }
+}

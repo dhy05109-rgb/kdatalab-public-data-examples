@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "endpoint": "/eu/tenders",
+    "country": "EU",
+    "keyword": "solar",
+    "noticeTypes": [
+      "cn-standard"
+    ],
+    "onlyActive": false,
+    "windowDays": 30,
+    "publishedFrom": "2026-10-20",
+    "language": "eng",
+    "limit": 1,
+    "count": 1,
+    "totalMatches": 471,
+    "warnings": [],
+    "tedQuery": "FT~(solar) AND notice-type IN (cn-standard) AND publication-date>=20261020 SORT BY publication-date DESC",
+    "fetchedAt": "2026-11-19T19:12:00.000Z"
+  },
+  "data": [
+    {
+      "publicationNumber": "804727-2026",
+      "noticeType": "cn-standard",
+      "noticeTypeLabel": "Contract notice (standard regime)",
+      "publicationDate": "2026-11-19",
+      "deadlineDate": "2026-11-27",
+      "daysUntilDeadline": 8,
+      "isActive": true,
+      "title": "France - Construction work for buildings relating to leisure, sports, culture, lodging and restaurants",
+      "buyerName": "Ville de Morangis",
+      "buyerCountry": "FRA",
+      "totalValue": 7197692,
+      "currency": "EUR",
+      "cpvCodes": [
+        "45212000",
+        "45112340"
+      ],
+      "contractNature": [
+        "works"
+      ],
+      "procedureType": "open",
+      "tedUrl": "https://ted.europa.eu/en/notice/-/detail/804727-2026"
+    }
+  ],
+  "_sample": {
+    "kind": "illustrative",
+    "note": "Illustrative row in the shape of a live /eu/tenders response (published OpenAPI example)."
+  }
+}

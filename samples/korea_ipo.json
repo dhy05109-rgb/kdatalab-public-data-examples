@@ -1,0 +1,79 @@
+{
+  "_sample": {
+    "kind": "captured",
+    "note": "First 3 rows of a korea-ipo-calendar dataset (subscriptionSchedule mode).",
+    "capturedAt": "2026-11-18T22:00:13+09:00"
+  },
+  "items": [
+    {
+      "source": "38.co.kr",
+      "mode": "subscriptionSchedule",
+      "modeLabel": "공모주 청약일정",
+      "page": 1,
+      "positionInPage": 1,
+      "companyName": "이나인페이",
+      "companyId": "2361",
+      "detailUrl": "https://www.38.co.kr/html/fund/?o=v&no=2361&l=&page=1",
+      "eventType": "retailSubscription",
+      "subscriptionStart": "2026-12-16",
+      "subscriptionEnd": "2026-12-17",
+      "offerPriceMin": 7500,
+      "offerPriceMax": 10500,
+      "finalOfferPrice": null,
+      "subscriptionCompetitionRate": null,
+      "bookrunners": [
+        "한국투자증권"
+      ],
+      "status": "upcoming",
+      "daysUntilSubscriptionEnd": 29,
+      "scrapedAt": "2026-11-18T22:00:13+09:00"
+    },
+    {
+      "source": "38.co.kr",
+      "mode": "subscriptionSchedule",
+      "modeLabel": "공모주 청약일정",
+      "page": 1,
+      "positionInPage": 2,
+      "companyName": "제논",
+      "companyId": "2341",
+      "detailUrl": "https://www.38.co.kr/html/fund/?o=v&no=2341&l=&page=1",
+      "eventType": "retailSubscription",
+      "subscriptionStart": "2026-12-14",
+      "subscriptionEnd": "2026-12-15",
+      "offerPriceMin": 9700,
+      "offerPriceMax": 12200,
+      "finalOfferPrice": null,
+      "subscriptionCompetitionRate": null,
+      "bookrunners": [
+        "삼성증권"
+      ],
+      "status": "upcoming",
+      "daysUntilSubscriptionEnd": 27,
+      "scrapedAt": "2026-11-18T22:00:13+09:00"
+    },
+    {
+      "source": "38.co.kr",
+      "mode": "subscriptionSchedule",
+      "modeLabel": "공모주 청약일정",
+      "page": 1,
+      "positionInPage": 3,
+      "companyName": "태석광학",
+      "companyId": "2360",
+      "detailUrl": "https://www.38.co.kr/html/fund/?o=v&no=2360&l=&page=1",
+      "eventType": "retailSubscription",
+      "subscriptionStart": "2026-12-14",
+      "subscriptionEnd": "2026-12-15",
+      "offerPriceMin": 17500,
+      "offerPriceMax": 20200,
+      "finalOfferPrice": null,
+      "subscriptionCompetitionRate": null,
+      "bookrunners": [
+        "신한투자증권",
+        "대신증권"
+      ],
+      "status": "upcoming",
+      "daysUntilSubscriptionEnd": 27,
+      "scrapedAt": "2026-11-18T22:00:13+09:00"
+    }
+  ]
+}

@@ -1,0 +1,539 @@
+{
+  "meta": {
+    "endpoint": "/county",
+    "state": "FL",
+    "countyFips": "12086",
+    "countyName": "Miami-Dade",
+    "disasters": {
+      "distinct": 43,
+      "areaRows": 43,
+      "byIncidentType": [
+        {
+          "incidentType": "Hurricane",
+          "count": 23
+        },
+        {
+          "incidentType": "Severe Storm",
+          "count": 5
+        },
+        {
+          "incidentType": "Freezing",
+          "count": 5
+        },
+        {
+          "incidentType": "Fire",
+          "count": 4
+        },
+        {
+          "incidentType": "Biological",
+          "count": 2
+        },
+        {
+          "incidentType": "Tropical Storm",
+          "count": 1
+        },
+        {
+          "incidentType": "Other",
+          "count": 1
+        },
+        {
+          "incidentType": "Tornado",
+          "count": 1
+        },
+        {
+          "incidentType": "Human Cause",
+          "count": 1
+        }
+      ]
+    },
+    "flood": {
+      "totalClaims": 62063,
+      "claimsLast12Months": 65,
+      "totalsOverReturnedRows": {
+        "rows": 3,
+        "claimsWithPayment": 0,
+        "paidBuildingUsd": 0,
+        "paidContentsUsd": 0,
+        "paidIncreasedCostOfComplianceUsd": 0,
+        "buildingDamageUsd": 0,
+        "averageBuildingPaymentUsd": null,
+        "specialFloodHazardAreaClaims": 2
+      }
+    },
+    "individualAssistance": {
+      "totals": {
+        "rows": 100,
+        "validRegistrations": 265394,
+        "approvedForFemaAssistance": 85282,
+        "approvalRatePct": 32.1,
+        "totalApprovedIhpUsd": 121472369.53,
+        "averageApprovedPerApplicationUsd": 1424.36,
+        "repairReplaceUsd": 40833386.67,
+        "rentalUsd": 39831991.24,
+        "otherNeedsUsd": 40627127.6,
+        "maxGrants": 8
+      },
+      "rowsRead": 100,
+      "rowsReturned": 3,
+      "totalRows": 1102,
+      "totalsCover": "the IHP rows read upstream (up to 100), not every row for this county name"
+    },
+    "count": {
+      "areas": 43,
+      "claims": 3,
+      "assistanceRows": 3
+    },
+    "warnings": [],
+    "note": "Declaration rows carry the county FIPS, IHP rows carry only the county name and NFIP claims carry the county FIPS: this endpoint joins them so the three registers agree on one place. Claim totals cover the returned rows only; totalClaims is the exact FEMA count.",
+    "fetchedAt": "2026-11-21T18:04:36.064Z"
+  },
+  "data": {
+    "recentDisasters": [
+      {
+        "disasterNumber": 4834,
+        "declarationString": "DR-4834-FL",
+        "state": "FL",
+        "declarationType": "DR",
+        "declarationTypeLabel": "Major disaster declaration",
+        "declarationDate": "2024-10-11",
+        "fiscalYearDeclared": 2025,
+        "incidentType": "Hurricane",
+        "title": "HURRICANE MILTON",
+        "designatedArea": "Miami-Dade (County)",
+        "countyFips": "12086",
+        "region": 4,
+        "programs": {
+          "individualHousing": false,
+          "individualAssistance": false,
+          "publicAssistance": true,
+          "hazardMitigation": true
+        },
+        "incidentBeginDate": "2024-10-05",
+        "incidentEndDate": "2024-11-02",
+        "closeoutDate": null,
+        "lastIndividualAssistanceFilingDate": null,
+        "tribalRequest": null
+      },
+      {
+        "disasterNumber": 3622,
+        "declarationString": "EM-3622-FL",
+        "state": "FL",
+        "declarationType": "EM",
+        "declarationTypeLabel": "Emergency declaration",
+        "declarationDate": "2024-10-07",
+        "fiscalYearDeclared": 2025,
+        "incidentType": "Hurricane",
+        "title": "HURRICANE MILTON",
+        "designatedArea": "Miami-Dade (County)",
+        "countyFips": "12086",
+        "region": 4,
+        "programs": {
+          "individualHousing": false,
+          "individualAssistance": false,
+          "publicAssistance": true,
+          "hazardMitigation": false
+        },
+        "incidentBeginDate": "2024-10-05",
+        "incidentEndDate": "2024-11-02",
+        "closeoutDate": null,
+        "lastIndividualAssistanceFilingDate": null,
+        "tribalRequest": null
+      },
+      {
+        "disasterNumber": 4680,
+        "declarationString": "DR-4680-FL",
+        "state": "FL",
+        "declarationType": "DR",
+        "declarationTypeLabel": "Major disaster declaration",
+        "declarationDate": "2022-12-13",
+        "fiscalYearDeclared": 2023,
+        "incidentType": "Hurricane",
+        "title": "HURRICANE NICOLE",
+        "designatedArea": "Miami-Dade (County)",
+        "countyFips": "12086",
+        "region": 4,
+        "programs": {
+          "individualHousing": false,
+          "individualAssistance": false,
+          "publicAssistance": true,
+          "hazardMitigation": true
+        },
+        "incidentBeginDate": "2022-11-07",
+        "incidentEndDate": "2022-11-30",
+        "closeoutDate": null,
+        "lastIndividualAssistanceFilingDate": null,
+        "tribalRequest": null
+      },
+      {
+        "disasterNumber": 3587,
+        "declarationString": "EM-3587-FL",
+        "state": "FL",
+        "declarationType": "EM",
+        "declarationTypeLabel": "Emergency declaration",
+        "declarationDate": "2022-11-08",
+        "fiscalYearDeclared": 2023,
+        "incidentType": "Tropical Storm",
+        "title": "TROPICAL STORM NICOLE",
+        "designatedArea": "Miami-Dade (County)",
+        "countyFips": "12086",
+        "region": 4,
+        "programs": {
+          "individualHousing": false,
+          "individualAssistance": false,
+          "publicAssistance": true,
+          "hazardMitigation": false
+        },
+        "incidentBeginDate": "2022-11-07",
+        "incidentEndDate": "2022-11-30",
+        "closeoutDate": null,
+        "lastIndividualAssistanceFilingDate": null,
+        "tribalRequest": null
+      },
+      {
+        "disasterNumber": 4673,
+        "declarationString": "DR-4673-FL",
+        "state": "FL",
+        "declarationType": "DR",
+        "declarationTypeLabel": "Major disaster declaration",
+        "declarationDate": "2022-09-29",
+        "fiscalYearDeclared": 2022,
+        "incidentType": "Hurricane",
+        "title": "HURRICANE IAN",
+        "designatedArea": "Miami-Dade (County)",
+        "countyFips": "12086",
+        "region": 4,
+        "programs": {
+          "individualHousing": false,
+          "individualAssistance": false,
+          "publicAssistance": true,
+          "hazardMitigation": true
+        },
+        "incidentBeginDate": "2022-09-23",
+        "incidentEndDate": "2022-11-04",
+        "closeoutDate": null,
+        "lastIndividualAssistanceFilingDate": null,
+        "tribalRequest": null
+      },
+      {
+        "disasterNumber": 3584,
+        "declarationString": "EM-3584-FL",
+        "state": "FL",
+        "declarationType": "EM",
+        "declarationTypeLabel": "Emergency declaration",
+        "declarationDate": "2022-09-24",
+        "fiscalYearDeclared": 2022,
+        "incidentType": "Hurricane",
+        "title": "TROPICAL STORM IAN",
+        "designatedArea": "Miami-Dade (County)",
+        "countyFips": "12086",
+        "region": 4,
+        "programs": {
+          "individualHousing": false,
+          "individualAssistance": false,
+          "publicAssistance": true,
+          "hazardMitigation": false
+        },
+        "incidentBeginDate": "2022-09-23",
+        "incidentEndDate": "2022-11-04",
+        "closeoutDate": null,
+        "lastIndividualAssistanceFilingDate": null,
+        "tribalRequest": null
+      },
+      {
+        "disasterNumber": 3561,
+        "declarationString": "EM-3561-FL",
+        "state": "FL",
+        "declarationType": "EM",
+        "declarationTypeLabel": "Emergency declaration",
+        "declarationDate": "2021-07-04",
+        "fiscalYearDeclared": 2021,
+        "incidentType": "Severe Storm",
+        "title": "TROPICAL STORM ELSA",
+        "designatedArea": "Miami-Dade (County)",
+        "countyFips": "12086",
+        "region": 4,
+        "programs": {
+          "individualHousing": false,
+          "individualAssistance": false,
+          "publicAssistance": true,
+          "hazardMitigation": false
+        },
+        "incidentBeginDate": "2021-07-04",
+        "incidentEndDate": "2021-07-08",
+        "closeoutDate": null,
+        "lastIndividualAssistanceFilingDate": null,
+        "tribalRequest": null
+      },
+      {
+        "disasterNumber": 3560,
+        "declarationString": "EM-3560-FL",
+        "state": "FL",
+        "declarationType": "EM",
+        "declarationTypeLabel": "Emergency declaration",
+        "declarationDate": "2021-06-25",
+        "fiscalYearDeclared": 2021,
+        "incidentType": "Other",
+        "title": "SURFSIDE BUILDING COLLAPSE",
+        "designatedArea": "Miami-Dade (County)",
+        "countyFips": "12086",
+        "region": 4,
+        "programs": {
+          "individualHousing": true,
+          "individualAssistance": false,
+          "publicAssistance": true,
+          "hazardMitigation": false
+        },
+        "incidentBeginDate": "2021-06-24",
+        "incidentEndDate": "2021-07-04",
+        "closeoutDate": null,
+        "lastIndividualAssistanceFilingDate": null,
+        "tribalRequest": null
+      },
+      {
+        "disasterNumber": 3533,
+        "declarationString": "EM-3533-FL",
+        "state": "FL",
+        "declarationType": "EM",
+        "declarationTypeLabel": "Emergency declaration",
+        "declarationDate": "2020-08-01",
+        "fiscalYearDeclared": 2020,
+        "incidentType": "Hurricane",
+        "title": "HURRICANE ISAIAS",
+        "designatedArea": "Miami-Dade (County)",
+        "countyFips": "12086",
+        "region": 4,
+        "programs": {
+          "individualHousing": false,
+          "individualAssistance": false,
+          "publicAssistance": true,
+          "hazardMitigation": false
+        },
+        "incidentBeginDate": "2020-07-31",
+        "incidentEndDate": "2020-08-04",
+        "closeoutDate": null,
+        "lastIndividualAssistanceFilingDate": null,
+        "tribalRequest": null
+      },
+      {
+        "disasterNumber": 4486,
+        "declarationString": "DR-4486-FL",
+        "state": "FL",
+        "declarationType": "DR",
+        "declarationTypeLabel": "Major disaster declaration",
+        "declarationDate": "2020-03-25",
+        "fiscalYearDeclared": 2020,
+        "incidentType": "Biological",
+        "title": "COVID-19 PANDEMIC",
+        "designatedArea": "Miami-Dade (County)",
+        "countyFips": "12086",
+        "region": 4,
+        "programs": {
+          "individualHousing": true,
+          "individualAssistance": false,
+          "publicAssistance": true,
+          "hazardMitigation": true
+        },
+        "incidentBeginDate": "2020-01-20",
+        "incidentEndDate": "2023-05-11",
+        "closeoutDate": null,
+        "lastIndividualAssistanceFilingDate": null,
+        "tribalRequest": null
+      }
+    ],
+    "recentClaims": [
+      {
+        "dateOfLoss": "2026-11-03",
+        "yearOfLoss": 2026,
+        "state": "FL",
+        "countyFips": "12086",
+        "zipCode": "33178",
+        "floodEvent": "2026-11-Florida-King Tides",
+        "eventDesignationNumber": null,
+        "ratedFloodZone": "X",
+        "zoneRisk": "low",
+        "specialFloodHazardArea": false,
+        "occupancyType": 18,
+        "occupancy": "Non-residential building (Risk Rating 2.0)",
+        "residential": false,
+        "paidBuildingUsd": 0,
+        "paidContentsUsd": 0,
+        "paidIncreasedCostOfComplianceUsd": 0,
+        "buildingDamageUsd": null,
+        "contentsDamageUsd": null,
+        "buildingCoverageUsd": 500000,
+        "contentsCoverageUsd": 0,
+        "waterDepthFt": 0,
+        "floors": 1,
+        "units": 1,
+        "primaryResidence": false,
+        "rentalProperty": false,
+        "community": "DORAL, CITY OF",
+        "latitude": 25.8,
+        "longitude": -80.4
+      },
+      {
+        "dateOfLoss": "2026-11-03",
+        "yearOfLoss": 2026,
+        "state": "FL",
+        "countyFips": "12086",
+        "zipCode": "33178",
+        "floodEvent": "2026-11-Florida-King Tides",
+        "eventDesignationNumber": null,
+        "ratedFloodZone": "AH",
+        "zoneRisk": "high",
+        "specialFloodHazardArea": true,
+        "occupancyType": 18,
+        "occupancy": "Non-residential building (Risk Rating 2.0)",
+        "residential": false,
+        "paidBuildingUsd": 0,
+        "paidContentsUsd": 0,
+        "paidIncreasedCostOfComplianceUsd": 0,
+        "buildingDamageUsd": null,
+        "contentsDamageUsd": null,
+        "buildingCoverageUsd": 0,
+        "contentsCoverageUsd": 500000,
+        "waterDepthFt": null,
+        "floors": 1,
+        "units": 1,
+        "primaryResidence": false,
+        "rentalProperty": true,
+        "community": "MEDLEY, TOWN OF",
+        "latitude": 25.9,
+        "longitude": -80.3
+      },
+      {
+        "dateOfLoss": "2026-11-03",
+        "yearOfLoss": 2026,
+        "state": "FL",
+        "countyFips": "12086",
+        "zipCode": "33014",
+        "floodEvent": "2026-11-Florida-King Tides",
+        "eventDesignationNumber": null,
+        "ratedFloodZone": "AE",
+        "zoneRisk": "high",
+        "specialFloodHazardArea": true,
+        "occupancyType": 11,
+        "occupancy": "Single-family residential building (Risk Rating 2.0)",
+        "residential": true,
+        "paidBuildingUsd": 0,
+        "paidContentsUsd": 0,
+        "paidIncreasedCostOfComplianceUsd": 0,
+        "buildingDamageUsd": null,
+        "contentsDamageUsd": null,
+        "buildingCoverageUsd": 150000,
+        "contentsCoverageUsd": 60000,
+        "waterDepthFt": 0,
+        "floors": 1,
+        "units": 1,
+        "primaryResidence": true,
+        "rentalProperty": false,
+        "community": "HIALEAH, CITY OF",
+        "latitude": 25.9,
+        "longitude": -80.3
+      }
+    ],
+    "assistance": [
+      {
+        "tenure": "owner",
+        "disasterNumber": null,
+        "state": "FL",
+        "county": "Miami-Dade (County)",
+        "city": null,
+        "zipCode": "33147",
+        "validRegistrations": 3678,
+        "approvedForFemaAssistance": 1554,
+        "approvalRatePct": 42.3,
+        "totalApprovedIhpUsd": 3113265.41,
+        "averageApprovedPerApplicationUsd": 2003.39,
+        "repairReplaceUsd": 1907543.85,
+        "rentalUsd": 293424,
+        "otherNeedsUsd": 911398.08,
+        "approvedAidBands": {
+          "upTo10k": null,
+          "from10kTo25k": null,
+          "over25k": null
+        },
+        "maxGrants": 0,
+        "totalInspected": null,
+        "inspectedDamageUsd": null,
+        "averageInspectedDamageUsd": null,
+        "damageBands": {
+          "none": null,
+          "upTo10k": null,
+          "from10kTo20k": null,
+          "from20kTo30k": null,
+          "over30k": null
+        }
+      },
+      {
+        "tenure": "owner",
+        "disasterNumber": null,
+        "state": "FL",
+        "county": "Miami-Dade (County)",
+        "city": null,
+        "zipCode": "33147",
+        "validRegistrations": 5074,
+        "approvedForFemaAssistance": 1848,
+        "approvalRatePct": 36.4,
+        "totalApprovedIhpUsd": 2795189.8,
+        "averageApprovedPerApplicationUsd": 1512.55,
+        "repairReplaceUsd": 702087.82,
+        "rentalUsd": 1402551,
+        "otherNeedsUsd": 687690.78,
+        "approvedAidBands": {
+          "upTo10k": null,
+          "from10kTo25k": null,
+          "over25k": null
+        },
+        "maxGrants": 0,
+        "totalInspected": null,
+        "inspectedDamageUsd": null,
+        "averageInspectedDamageUsd": null,
+        "damageBands": {
+          "none": null,
+          "upTo10k": null,
+          "from10kTo20k": null,
+          "from20kTo30k": null,
+          "over30k": null
+        }
+      },
+      {
+        "tenure": "owner",
+        "disasterNumber": null,
+        "state": "FL",
+        "county": "Miami-Dade (County)",
+        "city": null,
+        "zipCode": "33055",
+        "validRegistrations": 4648,
+        "approvedForFemaAssistance": 1817,
+        "approvalRatePct": 39.1,
+        "totalApprovedIhpUsd": 2764454.82,
+        "averageApprovedPerApplicationUsd": 1521.44,
+        "repairReplaceUsd": 1393043.74,
+        "rentalUsd": 220048.5,
+        "otherNeedsUsd": 1151362.58,
+        "approvedAidBands": {
+          "upTo10k": null,
+          "from10kTo25k": null,
+          "over25k": null
+        },
+        "maxGrants": 0,
+        "totalInspected": null,
+        "inspectedDamageUsd": null,
+        "averageInspectedDamageUsd": null,
+        "damageBands": {
+          "none": null,
+          "upTo10k": null,
+          "from10kTo20k": null,
+          "from20kTo30k": null,
+          "over30k": null
+        }
+      }
+    ]
+  },
+  "_sample": {
+    "kind": "captured",
+    "note": "Trimmed live /county response (Miami-Dade, FL).",
+    "capturedAt": "2026-11-21T18:04:35Z"
+  }
+}

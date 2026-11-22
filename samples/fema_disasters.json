@@ -1,0 +1,110 @@
+{
+  "meta": {
+    "endpoint": "/disasters",
+    "states": [
+      "FL"
+    ],
+    "incidentType": null,
+    "declarationType": null,
+    "program": null,
+    "countyFips": null,
+    "window": {
+      "from": "2024-01-01",
+      "to": "2024-12-31",
+      "year": 2024
+    },
+    "q": null,
+    "sort": "newest",
+    "limit": 3,
+    "count": 3,
+    "totalAreaRows": 340,
+    "distinctDisasters": 1,
+    "warnings": [
+      "Showing 3 of 340 designated-area rows. Narrow with state, year or countyFips; this API has no offset paging."
+    ],
+    "note": "One row of DisasterDeclarationsSummaries is one designated area, so a disaster that covers 60 counties appears 60 times. Count rows as areas, and count distinctDisasters for disasters.",
+    "fetchedAt": "2026-11-21T18:04:34.363Z"
+  },
+  "data": [
+    {
+      "disasterNumber": 4844,
+      "declarationString": "DR-4844-FL",
+      "state": "FL",
+      "declarationType": "DR",
+      "declarationTypeLabel": "Major disaster declaration",
+      "declarationDate": "2024-11-05",
+      "fiscalYearDeclared": 2025,
+      "incidentType": "Hurricane",
+      "title": "HURRICANE MILTON",
+      "designatedArea": "Immokalee Indian Reservation",
+      "countyFips": "12000",
+      "region": 4,
+      "programs": {
+        "individualHousing": true,
+        "individualAssistance": false,
+        "publicAssistance": true,
+        "hazardMitigation": true
+      },
+      "incidentBeginDate": "2024-10-05",
+      "incidentEndDate": "2024-11-02",
+      "closeoutDate": null,
+      "lastIndividualAssistanceFilingDate": "2025-02-07",
+      "tribalRequest": true
+    },
+    {
+      "disasterNumber": 4844,
+      "declarationString": "DR-4844-FL",
+      "state": "FL",
+      "declarationType": "DR",
+      "declarationTypeLabel": "Major disaster declaration",
+      "declarationDate": "2024-11-05",
+      "fiscalYearDeclared": 2025,
+      "incidentType": "Hurricane",
+      "title": "HURRICANE MILTON",
+      "designatedArea": "Seminole Tribe of Florida",
+      "countyFips": "12000",
+      "region": 4,
+      "programs": {
+        "individualHousing": true,
+        "individualAssistance": false,
+        "publicAssistance": true,
+        "hazardMitigation": true
+      },
+      "incidentBeginDate": "2024-10-05",
+      "incidentEndDate": "2024-11-02",
+      "closeoutDate": null,
+      "lastIndividualAssistanceFilingDate": "2025-02-07",
+      "tribalRequest": true
+    },
+    {
+      "disasterNumber": 4844,
+      "declarationString": "DR-4844-FL",
+      "state": "FL",
+      "declarationType": "DR",
+      "declarationTypeLabel": "Major disaster declaration",
+      "declarationDate": "2024-11-05",
+      "fiscalYearDeclared": 2025,
+      "incidentType": "Hurricane",
+      "title": "HURRICANE MILTON",
+      "designatedArea": "Hollywood Indian Reservation",
+      "countyFips": "12000",
+      "region": 4,
+      "programs": {
+        "individualHousing": true,
+        "individualAssistance": false,
+        "publicAssistance": true,
+        "hazardMitigation": true
+      },
+      "incidentBeginDate": "2024-10-05",
+      "incidentEndDate": "2024-11-02",
+      "closeoutDate": null,
+      "lastIndividualAssistanceFilingDate": "2025-02-07",
+      "tribalRequest": true
+    }
+  ],
+  "_sample": {
+    "kind": "illustrative",
+    "note": "Trimmed live /disasters response (Florida 2024 declarations, 3 designated areas).",
+    "capturedAt": "2026-11-21T18:04:34Z"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "endpoint": "/markets",
+    "mode": "both",
+    "count": 2,
+    "poolSize": {
+      "polymarket": 80,
+      "kalshi": 355
+    },
+    "query": null,
+    "minVolumeUsd": 0,
+    "limit": 2,
+    "sources": [
+      "polymarket",
+      "kalshi"
+    ],
+    "note": "Two rows of the normalised odds feed. Real responses carry up to 200 markets."
+  },
+  "data": [
+    {
+      "platform": "polymarket",
+      "marketId": "665374",
+      "tickerOrSlug": "will-the-us-invade-iran-before-2027",
+      "title": "Will the U.S. invade Iran before 2027?",
+      "category": null,
+      "status": "open",
+      "yesPct": 6.5,
+      "noPct": 93.5,
+      "yesBidPct": 6,
+      "yesAskPct": 7,
+      "volumeUsd": 80684786.06,
+      "volume24hUsd": 184534.05,
+      "liquidityUsd": 261782.11,
+      "closeTime": "2027-01-01T04:59:00Z",
+      "url": "https://polymarket.com/market/will-the-us-invade-iran-before-2027"
+    },
+    {
+      "platform": "kalshi",
+      "marketId": "KXMARS-99",
+      "tickerOrSlug": "KXMARS-99",
+      "title": "Will Elon Musk visit Mars before Aug 1, 2099?",
+      "category": "Science and Technology",
+      "status": "open",
+      "yesPct": 11.0,
+      "noPct": 89.0,
+      "yesBidPct": 10,
+      "yesAskPct": 12,
+      "volumeUsd": 41250.0,
+      "volume24hUsd": 820.4,
+      "liquidityUsd": 3100.0,
+      "closeTime": "2099-08-01T14:59:00Z",
+      "url": "https://kalshi.com/markets/kxmars"
+    }
+  ],
+  "_sample": {
+    "kind": "illustrative",
+    "note": "Illustrative rows in the shape of a live /markets response (published OpenAPI example values)."
+  }
+}

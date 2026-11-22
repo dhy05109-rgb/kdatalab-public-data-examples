@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "endpoint": "/complaints",
+    "company": "JPMORGAN CHASE & CO.",
+    "product": "Mortgage",
+    "issue": null,
+    "states": [],
+    "companyResponse": null,
+    "timely": null,
+    "q": null,
+    "sort": "newest",
+    "limit": 3,
+    "count": 3,
+    "totalMatches": 33,
+    "window": {
+      "from": "2026-10-23",
+      "to": "2026-11-21",
+      "days": 30
+    },
+    "dataFreshness": {
+      "lastUpdated": "2026-11-20T12:00:00-05:00",
+      "lastIndexed": "2026-11-21T12:00:00-05:00",
+      "totalRecordsPublished": 19348396,
+      "isDataStale": false,
+      "hasDataIssue": false,
+      "license": "CC0"
+    },
+    "warnings": [
+      "Showing the 3 newest of 33 matching complaints. Narrow dateFrom/dateTo to read further back; this API does not offer offset paging."
+    ],
+    "note": "Complaints are published after the company responds or after 15 days, so the newest one or two days are still incomplete. Counts are not a statistical sample of the market.",
+    "fetchedAt": "2026-11-21T17:08:49.758Z"
+  },
+  "data": [
+    {
+      "id": "33076275",
+      "dateReceived": "2026-11-17",
+      "dateSentToCompany": "2026-11-17",
+      "company": "JPMORGAN CHASE & CO.",
+      "product": "Mortgage",
+      "subProduct": "Conventional home mortgage",
+      "issue": "Trouble during payment process",
+      "subIssue": "Escrow, taxes, or insurance",
+      "state": "FL",
+      "zipCode": "33319",
+      "submittedVia": "Web",
+      "companyResponse": "Closed with explanation",
+      "timely": "Yes",
+      "companyPublicResponse": null,
+      "tags": null,
+      "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/detail/33076275"
+    },
+    {
+      "id": "32972585",
+      "dateReceived": "2026-11-16",
+      "dateSentToCompany": "2026-11-16",
+      "company": "JPMORGAN CHASE & CO.",
+      "product": "Mortgage",
+      "subProduct": "Conventional home mortgage",
+      "issue": "Trouble during payment process",
+      "subIssue": "Escrow, taxes, or insurance",
+      "state": "TX",
+      "zipCode": "78626",
+      "submittedVia": "Web",
+      "companyResponse": "Closed with explanation",
+      "timely": "Yes",
+      "companyPublicResponse": null,
+      "tags": "Older American, Servicemember",
+      "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/detail/32972585"
+    },
+    {
+      "id": "32628498",
+      "dateReceived": "2026-11-12",
+      "dateSentToCompany": "2026-11-12",
+      "company": "JPMORGAN CHASE & CO.",
+      "product": "Mortgage",
+      "subProduct": "Conventional home mortgage",
+      "issue": "Trouble during payment process",
+      "subIssue": "Payment process",
+      "state": "AZ",
+      "zipCode": "85383",
+      "submittedVia": "Web",
+      "companyResponse": "Closed with explanation",
+      "timely": "Yes",
+      "companyPublicResponse": null,
+      "tags": null,
+      "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/detail/32628498"
+    }
+  ],
+  "_sample": {
+    "kind": "captured",
+    "note": "Trimmed live /complaints response (JPMorgan, Mortgage, 3 newest).",
+    "capturedAt": "2026-11-21T17:08:49Z"
+  }
+}

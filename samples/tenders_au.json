@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "endpoint": "/au/tenders",
+    "country": "AU",
+    "dateField": "contractPublished",
+    "daysBack": 7,
+    "window": {
+      "from": "2026-11-12T17:43:53Z",
+      "to": "2026-11-19T17:43:53Z"
+    },
+    "count": 1,
+    "releasesScanned": 100,
+    "warnings": []
+  },
+  "data": [
+    {
+      "source": "AusTender OCDS API (Department of Finance)",
+      "recordType": "contractNotice",
+      "id": "CN4289925",
+      "title": "ICT Contractor",
+      "agency": "Australian Criminal Intelligence Commission",
+      "supplierName": "Kirra Services Pty Ltd",
+      "supplierRegion": "ACT",
+      "value": 419988.8,
+      "currency": "AUD",
+      "publishDate": "2026-11-19T07:45:51Z",
+      "status": "active",
+      "ocid": "ocds-8gmvz6-CN4289925",
+      "noticeUrl": "https://www.tenders.gov.au/Cn/Show/4e3a3a1e"
+    }
+  ],
+  "_sample": {
+    "kind": "illustrative",
+    "note": "Illustrative row in the shape of a live /au/tenders response (published OpenAPI example)."
+  }
+}

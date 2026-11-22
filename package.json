@@ -1,0 +1,48 @@
+{
+  "name": "kdatalab-public-data-examples",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Runnable Python and JavaScript examples for public-data APIs and scrapers: prediction markets, tenders, permits, FDA, grants, kimchi premium, due diligence, CFPB, FEMA, SEC and Korean IPO data.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "demo:kimchi": "node javascript/kimchi_premium.mjs --demo",
+    "demo:prediction": "node javascript/prediction_markets.mjs --demo",
+    "demo:entity": "node javascript/entity_diligence.mjs --demo",
+    "demo:flood": "node javascript/disaster_flood_loss.mjs --demo"
+  },
+  "keywords": [
+    "public-data",
+    "open-data",
+    "rapidapi",
+    "apify",
+    "prediction-markets",
+    "polymarket",
+    "kalshi",
+    "procurement",
+    "ted",
+    "austender",
+    "building-permits",
+    "fda",
+    "clinical-trials",
+    "grants",
+    "nih",
+    "nsf",
+    "kimchi-premium",
+    "upbit",
+    "bithumb",
+    "gleif",
+    "lei",
+    "form-990",
+    "cfpb",
+    "hmda",
+    "fema",
+    "nfip",
+    "sec-edgar",
+    "korea-ipo",
+    "cheongyak"
+  ],
+  "license": "MIT"
+}

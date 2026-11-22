@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "endpoint": "/us/permits",
+    "country": "US",
+    "cities": [
+      "nyc",
+      "chicago"
+    ],
+    "daysBack": 10,
+    "window": {
+      "fromDate": "2026-11-09",
+      "toDateTime": "2026-11-19T19:12:00Z"
+    },
+    "minEstimatedCost": null,
+    "keyword": null,
+    "workType": "all",
+    "limit": 2,
+    "count": 2,
+    "rowsScanned": 20,
+    "perCity": [
+      {
+        "city": "nyc",
+        "name": "New York City, NY",
+        "rowsScanned": 10,
+        "kept": 1
+      },
+      {
+        "city": "chicago",
+        "name": "Chicago, IL",
+        "rowsScanned": 10,
+        "kept": 1
+      }
+    ],
+    "warnings": [],
+    "fetchedAt": "2026-11-19T19:12:00Z"
+  },
+  "data": [
+    {
+      "city": "nyc",
+      "cityName": "New York City, NY",
+      "permitNumber": "X01471181-I1",
+      "permitType": "Alteration",
+      "workType": "renovation",
+      "status": "Permit Entire",
+      "issuedDate": "2026-11-17",
+      "estimatedCost": 30500,
+      "costCurrency": "USD",
+      "streetAddress": "1111 WEBSTER AVENUE",
+      "locality": "Bronx",
+      "zip": "10456",
+      "contractorCompany": "RIGID STRUCTURAL DESIGN, LLC",
+      "contractorRole": "applicant_firm",
+      "description": "Installation of a temporary supported scaffold per plan submitted.",
+      "units": 265,
+      "floorAreaSqft": 1000,
+      "daysSinceIssued": 2,
+      "recordUrl": "https://data.cityofnewyork.us/resource/w9ak-ipjd.json?job_filing_number=X01471181-I1"
+    },
+    {
+      "city": "chicago",
+      "cityName": "Chicago, IL",
+      "permitNumber": "B200520509",
+      "permitType": "PERMIT - EXPRESS PERMIT PROGRAM",
+      "workType": "trade",
+      "status": "ACTIVE",
+      "issuedDate": "2026-11-18",
+      "estimatedCost": 2850,
+      "costCurrency": "USD",
+      "streetAddress": "7635 S DANTE AVE",
+      "locality": "Chicago",
+      "contractorCompany": "ALVAREZ ELECTRICAL TECH",
+      "contractorRole": "trade_contractor",
+      "description": "Electrical work.",
+      "daysSinceIssued": 1,
+      "recordUrl": "https://data.cityofchicago.org/resource/ydr8-5enu.json"
+    }
+  ],
+  "_sample": {
+    "kind": "illustrative",
+    "note": "Illustrative rows in the shape of a live /us/permits response (published OpenAPI example)."
+  }
+}

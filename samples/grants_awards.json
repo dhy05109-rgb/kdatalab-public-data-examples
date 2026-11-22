@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "endpoint": "/awards/search",
+    "keyword": "crispr",
+    "source": "all",
+    "fiscalYear": null,
+    "minAmount": null,
+    "limit": 3,
+    "count": 3,
+    "countsBySource": {
+      "nih": 3,
+      "nsf": 3
+    },
+    "totalMatches": {
+      "nih": 24711,
+      "nsf": 558
+    },
+    "warnings": [],
+    "fetchedAt": "2026-11-21T11:07:40.226Z",
+    "note": "Awards are ordered by amountUsd, largest first. amountBasis says whether that amount is a single fiscal year (NIH) or the estimated total award (NSF)."
+  },
+  "data": [
+    {
+      "recordType": "award",
+      "id": "1ZIGAI001047-18",
+      "source": "nih",
+      "sourceName": "NIH RePORTER",
+      "title": "Comparative Medicine Infectious Diseases- Bethesda",
+      "organization": "NATIONAL INSTITUTE OF ALLERGY AND INFECTIOUS DISEASES",
+      "organizationCity": null,
+      "organizationState": null,
+      "organizationCountry": "UNITED STATES",
+      "agency": "National Institute of Allergy and Infectious Diseases",
+      "agencyCode": "NIAID",
+      "piName": "William Elkins",
+      "amountUsd": 49577192,
+      "amountBasis": "fiscal_year_award_amount",
+      "fiscalYear": 2025,
+      "startDate": null,
+      "endDate": null,
+      "abstractSnippet": "CMB Research Support Specialists provide technical expertise and support to NIAID Principal Investigators, assisting them with true cage to benchside support. Both pathology and technical proficiency resulted in numerous co-authorship opportunities. The CMB has successfully maintained a gnotobiotic breeding and study facility, which consists of bio-exclusion units designed to keep the mice from…",
+      "url": "https://reporter.nih.gov/project-details/11403483",
+      "sourceUrl": "https://api.reporter.nih.gov/v2/projects/search",
+      "fetchedAt": "2026-11-21T11:07:40.065Z"
+    },
+    {
+      "recordType": "award",
+      "id": "1ZIGAI001047-17",
+      "source": "nih",
+      "sourceName": "NIH RePORTER",
+      "title": "Comparative Medicine Infectious Diseases- Bethesda",
+      "organization": "NATIONAL INSTITUTE OF ALLERGY AND INFECTIOUS DISEASES",
+      "organizationCity": null,
+      "organizationState": null,
+      "organizationCountry": "UNITED STATES",
+      "agency": "National Institute of Allergy and Infectious Diseases",
+      "agencyCode": "NIAID",
+      "piName": "William Elkins",
+      "amountUsd": 46528760,
+      "amountBasis": "fiscal_year_award_amount",
+      "fiscalYear": 2024,
+      "startDate": null,
+      "endDate": null,
+      "abstractSnippet": "CMB Research Support Specialists provide technical expertise and support to NIAID Principal Investigators, assisting them with true cage to benchside support. Both pathology and technical proficiency resulted in numerous co-authorship opportunities. The CMB has successfully maintained a gnotobiotic breeding and study facility, which consists of bio-exclusion units designed to keep the mice from…",
+      "url": "https://reporter.nih.gov/project-details/11189571",
+      "sourceUrl": "https://api.reporter.nih.gov/v2/projects/search",
+      "fetchedAt": "2026-11-21T11:07:40.066Z"
+    },
+    {
+      "recordType": "award",
+      "id": "1ZIGAI001047-14",
+      "source": "nih",
+      "sourceName": "NIH RePORTER",
+      "title": "Comparative Medicine Infectious Diseases- Bethesda",
+      "organization": "NATIONAL INSTITUTE OF ALLERGY AND INFECTIOUS DISEASES",
+      "organizationCity": null,
+      "organizationState": null,
+      "organizationCountry": "UNITED STATES",
+      "agency": "National Institute of Allergy and Infectious Diseases",
+      "agencyCode": "NIAID",
+      "piName": "William Elkins",
+      "amountUsd": 38674959,
+      "amountBasis": "fiscal_year_award_amount",
+      "fiscalYear": 2021,
+      "startDate": null,
+      "endDate": null,
+      "abstractSnippet": "CMB Research Support Specialists provide technical expertise and support to NIAID Principal Investigators, assisting them with true cage to benchside support. Both pathology and technical proficiency resulted in numerous co-authorship opportunities. The CMB has successfully maintained a gnotobiotic breeding and study facility, which consists of bio-exclusion units designed to keep the mice from…",
+      "url": "https://reporter.nih.gov/project-details/10483011",
+      "sourceUrl": "https://api.reporter.nih.gov/v2/projects/search",
+      "fetchedAt": "2026-11-21T11:07:40.067Z"
+    }
+  ],
+  "_sample": {
+    "kind": "captured",
+    "note": "Trimmed live /awards/search response for keyword=crispr (3 NIH/NSF awards).",
+    "capturedAt": "2026-11-21T11:07:40Z"
+  }
+}

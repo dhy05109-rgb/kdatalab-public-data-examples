@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "endpoint": "/products/benchmark",
+    "product": null,
+    "window": {
+      "from": "2026-10-08",
+      "to": "2026-11-06",
+      "days": 30
+    },
+    "priorWindow": {
+      "from": "2026-09-08",
+      "to": "2026-10-07"
+    },
+    "lagDays": 15,
+    "count": 11,
+    "totalComplaints": 777542,
+    "warnings": [],
+    "note": "Omit product only to discover the exact product labels; then pass one to get its issues and companies.",
+    "fetchedAt": "2026-11-21T17:08:53.011Z"
+  },
+  "data": [
+    {
+      "product": "Credit reporting or other personal consumer reports",
+      "complaints": 721564,
+      "priorComplaints": 619419,
+      "change": 102145,
+      "changePct": 16.5,
+      "sharePct": 92.8
+    },
+    {
+      "product": "Debt collection",
+      "complaints": 22977,
+      "priorComplaints": 22185,
+      "change": 792,
+      "changePct": 3.6,
+      "sharePct": 2.96
+    },
+    {
+      "product": "Credit card",
+      "complaints": 9770,
+      "priorComplaints": 8909,
+      "change": 861,
+      "changePct": 9.7,
+      "sharePct": 1.26
+    },
+    {
+      "product": "Checking or savings account",
+      "complaints": 9067,
+      "priorComplaints": 8158,
+      "change": 909,
+      "changePct": 11.1,
+      "sharePct": 1.17
+    },
+    {
+      "product": "Money transfer, virtual currency, or money service",
+      "complaints": 3869,
+      "priorComplaints": 3527,
+      "change": 342,
+      "changePct": 9.7,
+      "sharePct": 0.5
+    },
+    {
+      "product": "Mortgage",
+      "complaints": 3316,
+      "priorComplaints": 3353,
+      "change": -37,
+      "changePct": -1.1,
+      "sharePct": 0.43
+    },
+    {
+      "product": "Vehicle loan or lease",
+      "complaints": 2465,
+      "priorComplaints": 2395,
+      "change": 70,
+      "changePct": 2.9,
+      "sharePct": 0.32
+    },
+    {
+      "product": "Payday loan, title loan, personal loan, or advance loan",
+      "complaints": 2204,
+      "priorComplaints": 1980,
+      "change": 224,
+      "changePct": 11.3,
+      "sharePct": 0.28
+    },
+    {
+      "product": "Student loan",
+      "complaints": 1420,
+      "priorComplaints": 1573,
+      "change": -153,
+      "changePct": -9.7,
+      "sharePct": 0.18
+    },
+    {
+      "product": "Prepaid card",
+      "complaints": 563,
+      "priorComplaints": 580,
+      "change": -17,
+      "changePct": -2.9,
+      "sharePct": 0.07
+    },
+    {
+      "product": "Debt or credit management",
+      "complaints": 327,
+      "priorComplaints": 324,
+      "change": 3,
+      "changePct": 0.9,
+      "sharePct": 0.04
+    }
+  ],
+  "_sample": {
+    "kind": "captured",
+    "note": "Trimmed live /products/benchmark response (all products, 30 days).",
+    "capturedAt": "2026-11-22T00:00:00Z"
+  }
+}

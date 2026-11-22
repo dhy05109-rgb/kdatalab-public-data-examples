@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "endpoint": "/companies/trending",
+    "product": null,
+    "states": [],
+    "minVolume": 100,
+    "sort": "change",
+    "direction": "up",
+    "limit": 5,
+    "count": 5,
+    "recent": {
+      "from": "2026-10-08",
+      "to": "2026-11-06",
+      "totalComplaints": 777542
+    },
+    "prior": {
+      "from": "2026-09-08",
+      "to": "2026-10-07",
+      "totalComplaints": 672403
+    },
+    "lagDays": 15,
+    "warnings": [
+      "Credit-reporting complaints are roughly 85% of the whole database and move every company ranking; add product= to rank inside one market."
+    ],
+    "note": "A company enters the ranking only when its recent complaints are at least minVolume and it moved in the requested direction against the equally long prior window. changePct is null when the prior window had no complaints. Both windows end lagDays before today because the CFPB publishes complaints only after the company responds or after 15 days.",
+    "fetchedAt": "2026-11-21T17:08:49.973Z"
+  },
+  "data": [
+    {
+      "company": "Experian Information Solutions Inc.",
+      "recentComplaints": 281183,
+      "priorComplaints": 197742,
+      "change": 83441,
+      "changePct": 42.2,
+      "shareOfRecentPct": 36.16
+    },
+    {
+      "company": "TRANSUNION INTERMEDIATE HOLDINGS, INC.",
+      "recentComplaints": 227828,
+      "priorComplaints": 210821,
+      "change": 17007,
+      "changePct": 8.1,
+      "shareOfRecentPct": 29.3
+    },
+    {
+      "company": "EQUIFAX, INC.",
+      "recentComplaints": 197156,
+      "priorComplaints": 195356,
+      "change": 1800,
+      "changePct": 0.9,
+      "shareOfRecentPct": 25.36
+    }
+  ],
+  "_sample": {
+    "kind": "captured",
+    "note": "Trimmed live /companies/trending response (3 companies with rising complaint volume).",
+    "capturedAt": "2026-11-22T00:00:00Z"
+  }
+}

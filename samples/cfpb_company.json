@@ -1,0 +1,521 @@
+{
+  "meta": {
+    "endpoint": "/company",
+    "name": "JPMORGAN CHASE & CO.",
+    "requestedName": "JPMORGAN CHASE & CO.",
+    "resolvedName": null,
+    "matched": true,
+    "suggestions": [],
+    "window": {
+      "from": "2026-08-09",
+      "to": "2026-11-06",
+      "days": 90
+    },
+    "priorWindow": {
+      "from": "2026-05-11",
+      "to": "2026-08-08"
+    },
+    "lagDays": 15,
+    "warnings": [
+      "HMDA filings for 2026 are not published yet; lending figures use the 2025 filing year."
+    ],
+    "note": "Complaints are published after the company responds or after 15 days, so the newest one or two days are still incomplete. Counts are not a statistical sample of the market. lenient name matching is deliberate: matchBasis and matchConfidence say how the HMDA lender was resolved.",
+    "fetchedAt": "2026-11-21T17:08:52.934Z"
+  },
+  "data": {
+    "company": "JPMORGAN CHASE & CO.",
+    "complaints": {
+      "total": 6998,
+      "priorTotal": 6410,
+      "change": 588,
+      "changePct": 9.2,
+      "products": [
+        {
+          "product": "Checking or savings account",
+          "complaints": 2670,
+          "sharePct": 38.15,
+          "subProducts": [
+            {
+              "key": "Checking account",
+              "count": 2351
+            },
+            {
+              "key": "Other banking product or service",
+              "count": 173
+            },
+            {
+              "key": "Savings account",
+              "count": 119
+            },
+            {
+              "key": "CD (Certificate of Deposit)",
+              "count": 27
+            }
+          ]
+        },
+        {
+          "product": "Credit card",
+          "complaints": 2188,
+          "sharePct": 31.27,
+          "subProducts": [
+            {
+              "key": "General-purpose credit card or charge card",
+              "count": 2174
+            },
+            {
+              "key": "Store credit card",
+              "count": 14
+            }
+          ]
+        },
+        {
+          "product": "Credit reporting or other personal consumer reports",
+          "complaints": 1028,
+          "sharePct": 14.69,
+          "subProducts": [
+            {
+              "key": "Credit reporting",
+              "count": 1006
+            },
+            {
+              "key": "Other personal consumer report",
+              "count": 22
+            }
+          ]
+        },
+        {
+          "product": "Money transfer, virtual currency, or money service",
+          "complaints": 455,
+          "sharePct": 6.5,
+          "subProducts": [
+            {
+              "key": "Domestic (US) money transfer",
+              "count": 231
+            },
+            {
+              "key": "Mobile or digital wallet",
+              "count": 102
+            },
+            {
+              "key": "International money transfer",
+              "count": 47
+            },
+            {
+              "key": "Money order, traveler's check or cashier's check",
+              "count": 42
+            }
+          ]
+        },
+        {
+          "product": "Debt collection",
+          "complaints": 329,
+          "sharePct": 4.7,
+          "subProducts": [
+            {
+              "key": "I do not know",
+              "count": 198
+            },
+            {
+              "key": "Credit card debt",
+              "count": 111
+            },
+            {
+              "key": "Auto debt",
+              "count": 12
+            },
+            {
+              "key": "Other debt",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "product": "Mortgage",
+          "complaints": 185,
+          "sharePct": 2.64,
+          "subProducts": [
+            {
+              "key": "Conventional home mortgage",
+              "count": 140
+            },
+            {
+              "key": "Home equity loan or line of credit (HELOC)",
+              "count": 19
+            },
+            {
+              "key": "FHA mortgage",
+              "count": 12
+            },
+            {
+              "key": "Other type of mortgage",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "product": "Vehicle loan or lease",
+          "complaints": 126,
+          "sharePct": 1.8,
+          "subProducts": [
+            {
+              "key": "Loan",
+              "count": 105
+            },
+            {
+              "key": "Lease",
+              "count": 21
+            }
+          ]
+        },
+        {
+          "product": "Debt or credit management",
+          "complaints": 9,
+          "sharePct": 0.13,
+          "subProducts": [
+            {
+              "key": "Debt settlement",
+              "count": 7
+            },
+            {
+              "key": "Credit repair services",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "product": "Payday loan, title loan, personal loan, or advance loan",
+          "complaints": 4,
+          "sharePct": 0.06,
+          "subProducts": [
+            {
+              "key": "Installment loan",
+              "count": 2
+            },
+            {
+              "key": "Title loan",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "product": "Prepaid card",
+          "complaints": 4,
+          "sharePct": 0.06,
+          "subProducts": [
+            {
+              "key": "General-purpose prepaid card",
+              "count": 2
+            },
+            {
+              "key": "Gift card",
+              "count": 1
+            },
+            {
+              "key": "Government benefit card",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "topIssues": [
+        {
+          "issue": "Managing an account",
+          "complaints": 1569,
+          "subIssues": [
+            {
+              "key": "Deposits and withdrawals",
+              "count": 578
+            },
+            {
+              "key": "Problem using a debit or ATM card",
+              "count": 347
+            },
+            {
+              "key": "Funds not handled or disbursed as instructed",
+              "count": 190
+            }
+          ]
+        },
+        {
+          "issue": "Problem with a purchase shown on your statement",
+          "complaints": 769,
+          "subIssues": [
+            {
+              "key": "Credit card company isn't resolving a dispute about a purchase on your statement",
+              "count": 612
+            },
+            {
+              "key": "Card was charged for something you did not purchase with the card",
+              "count": 138
+            },
+            {
+              "key": "Overcharged for something you did purchase with the card",
+              "count": 19
+            }
+          ]
+        },
+        {
+          "issue": "Incorrect information on your report",
+          "complaints": 619,
+          "subIssues": [
+            {
+              "key": "Account information incorrect",
+              "count": 231
+            },
+            {
+              "key": "Information belongs to someone else",
+              "count": 193
+            },
+            {
+              "key": "Account status incorrect",
+              "count": 154
+            }
+          ]
+        },
+        {
+          "issue": "Other features, terms, or problems",
+          "complaints": 459,
+          "subIssues": [
+            {
+              "key": "Problem with rewards from credit card",
+              "count": 220
+            },
+            {
+              "key": "Other problem",
+              "count": 123
+            },
+            {
+              "key": "Problem with customer service",
+              "count": 45
+            }
+          ]
+        },
+        {
+          "issue": "Closing an account",
+          "complaints": 389,
+          "subIssues": [
+            {
+              "key": "Company closed your account",
+              "count": 217
+            },
+            {
+              "key": "Funds not received from closed account",
+              "count": 139
+            },
+            {
+              "key": "Can't close your account",
+              "count": 28
+            }
+          ]
+        },
+        {
+          "issue": "Problem with a lender or other company charging your account",
+          "complaints": 335,
+          "subIssues": [
+            {
+              "key": "Transaction was not authorized",
+              "count": 275
+            },
+            {
+              "key": "Money was taken from your account on the wrong day or for the wrong amount",
+              "count": 45
+            },
+            {
+              "key": "Can't stop withdrawals from your account",
+              "count": 15
+            }
+          ]
+        },
+        {
+          "issue": "Improper use of your report",
+          "complaints": 298,
+          "subIssues": [
+            {
+              "key": "Reporting company used your report improperly",
+              "count": 151
+            },
+            {
+              "key": "Credit inquiries on your report that you don't recognize",
+              "count": 145
+            },
+            {
+              "key": "Received unsolicited financial product or insurance offers after opting out",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "issue": "Problem with a company's investigation into an existing problem",
+          "complaints": 243,
+          "subIssues": [
+            {
+              "key": "Their investigation did not fix an error on your report",
+              "count": 150
+            },
+            {
+              "key": "Investigation took more than 30 days",
+              "count": 35
+            },
+            {
+              "key": "Problem with personal statement of dispute",
+              "count": 25
+            }
+          ]
+        },
+        {
+          "issue": "Fraud or scam",
+          "complaints": 208,
+          "subIssues": []
+        },
+        {
+          "issue": "Advertising and marketing, including promotional offers",
+          "complaints": 205,
+          "subIssues": [
+            {
+              "key": "Didn't receive advertised or promotional terms",
+              "count": 174
+            },
+            {
+              "key": "Confusing or misleading advertising about the credit card",
+              "count": 31
+            }
+          ]
+        }
+      ],
+      "topStates": [
+        {
+          "state": "CA",
+          "complaints": 1252
+        },
+        {
+          "state": "NY",
+          "complaints": 766
+        },
+        {
+          "state": "TX",
+          "complaints": 736
+        },
+        {
+          "state": "FL",
+          "complaints": 722
+        },
+        {
+          "state": "NJ",
+          "complaints": 357
+        },
+        {
+          "state": "IL",
+          "complaints": 345
+        },
+        {
+          "state": "GA",
+          "complaints": 240
+        },
+        {
+          "state": "NC",
+          "complaints": 161
+        },
+        {
+          "state": "MI",
+          "complaints": 158
+        },
+        {
+          "state": "AZ",
+          "complaints": 154
+        }
+      ],
+      "companyResponses": [
+        {
+          "response": "Closed with explanation",
+          "complaints": 5325,
+          "sharePct": 76.09
+        },
+        {
+          "response": "Closed with monetary relief",
+          "complaints": 809,
+          "sharePct": 11.56
+        },
+        {
+          "response": "Closed with non-monetary relief",
+          "complaints": 486,
+          "sharePct": 6.94
+        },
+        {
+          "response": "In progress",
+          "complaints": 378,
+          "sharePct": 5.4
+        }
+      ],
+      "timelyRatePct": 100,
+      "publicResponseCount": 6998,
+      "submittedVia": [
+        {
+          "channel": "Web",
+          "complaints": 6670
+        },
+        {
+          "channel": "Referral",
+          "complaints": 176
+        },
+        {
+          "channel": "Phone",
+          "complaints": 113
+        },
+        {
+          "channel": "Postal mail",
+          "complaints": 39
+        }
+      ],
+      "tags": [
+        {
+          "tag": "Older American",
+          "complaints": 502
+        },
+        {
+          "tag": "Servicemember",
+          "complaints": 376
+        },
+        {
+          "tag": "Older American, Servicemember",
+          "complaints": 80
+        }
+      ],
+      "mortgageComplaints": 185
+    },
+    "lending": {
+      "available": true,
+      "year": 2025,
+      "lender": {
+        "lei": "7H6GLXDRUGQFU57RNE97",
+        "name": "JPMorgan Chase Bank, National Association",
+        "matchConfidence": 0.8,
+        "matchBasis": "shared_leading_tokens",
+        "hmdaRecords": 368994
+      },
+      "actionsTaken": {
+        "originated": 94243,
+        "approvedNotAccepted": 2493,
+        "denied": 15898,
+        "withdrawn": 25475,
+        "closedIncomplete": 14306
+      },
+      "originatedUsd": 66287975000,
+      "deniedUsd": 6511730000,
+      "averageOriginationUsd": 703373,
+      "denialRatePct": 14.43,
+      "deniedByRace": {
+        "blackOrAfricanAmerican": 1757,
+        "white": 10132
+      },
+      "mortgageComplaintsInFilingYear": 549,
+      "mortgageComplaintsPer1000Decisions": 4.98,
+      "note": "denialRatePct is denials divided by originations plus denials. deniedByRace counts denials only, so compare them with the lender's application mix before drawing a fair-lending conclusion. mortgageComplaintsPer1000Decisions mixes complaint counts (CCDB, all mortgage stages) with HMDA applications in the same year and is an approximate pressure gauge, not a rate.",
+      "smallSample": false
+    }
+  },
+  "_sample": {
+    "kind": "captured",
+    "note": "Trimmed live /company response for JPMorgan Chase (complaints + HMDA lending).",
+    "capturedAt": "2026-11-22T00:00:00Z"
+  }
+}

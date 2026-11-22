@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "endpoint": "/assistance/counties",
+    "disaster": 4339,
+    "state": "PR",
+    "mode": "owners",
+    "sort": "aid",
+    "maxRowsPerTenure": 1000,
+    "limit": 5,
+    "countyCount": 5,
+    "rowsRead": {
+      "owners": 1000
+    },
+    "totalRowsAvailable": {
+      "owners": 7509
+    },
+    "complete": false,
+    "truncated": {
+      "owners": {
+        "rowsRead": 1000,
+        "totalRows": 7509
+      }
+    },
+    "totals": {
+      "validRegistrations": 173028,
+      "approvedForFemaAssistance": 68421,
+      "totalApprovedIhpUsd": 200293249.61,
+      "approvalRatePct": 39.5
+    },
+    "totalsCover": "the counties returned in data[] only; totalsAllCounties covers every county in the roll-up",
+    "totalsAllCounties": {
+      "validRegistrations": 766643,
+      "approvedForFemaAssistance": 325613,
+      "totalApprovedIhpUsd": 1113682717.68,
+      "approvalRatePct": 42.5
+    },
+    "warnings": [
+      "This roll-up read 1000 of 7509 owners rows, largest ZIP groups first. County totals are therefore a LOWER BOUND; raise maxRows (max 1000) or add state= to narrow."
+    ],
+    "note": "FEMA publishes IHP aid per ZIP; this endpoint sums those ZIP rows per county name. County names are FEMA copy, so a county appears as \"Miami-Dade (County)\" or \"Adjuntas (Municipio)\". Read rows by largest first so a truncated read still covers the places that received the most aid.",
+    "fetchedAt": "2026-11-21T18:04:35.421Z"
+  },
+  "data": [
+    {
+      "state": "PR",
+      "county": "Toa Baja (Municipio)",
+      "zipRowsRead": 40,
+      "validRegistrations": 19611,
+      "approvedForFemaAssistance": 9716,
+      "approvalRatePct": 49.5,
+      "totalApprovedIhpUsd": 44438825.5,
+      "averageApprovedPerApplicationUsd": 4573.78,
+      "owner": {
+        "zipRows": 40,
+        "validRegistrations": 19611,
+        "approvedForFemaAssistance": 9716,
+        "totalApprovedIhpUsd": 44438825.5,
+        "rentalUsd": 4843276.86,
+        "repairReplaceUsd": 21255711.11,
+        "otherNeedsUsd": 18329556.33
+      },
+      "renter": null
+    },
+    {
+      "state": "PR",
+      "county": "Ponce (Municipio)",
+      "zipRowsRead": 30,
+      "validRegistrations": 32850,
+      "approvedForFemaAssistance": 14297,
+      "approvalRatePct": 43.5,
+      "totalApprovedIhpUsd": 43697560.93,
+      "averageApprovedPerApplicationUsd": 3056.41,
+      "owner": {
+        "zipRows": 30,
+        "validRegistrations": 32850,
+        "approvedForFemaAssistance": 14297,
+        "totalApprovedIhpUsd": 43697560.93,
+        "rentalUsd": 4657019.01,
+        "repairReplaceUsd": 25486507.57,
+        "otherNeedsUsd": 13549337.43
+      },
+      "renter": null
+    },
+    {
+      "state": "PR",
+      "county": "San Juan (Municipio)",
+      "zipRowsRead": 110,
+      "validRegistrations": 58067,
+      "approvedForFemaAssistance": 19691,
+      "approvalRatePct": 33.9,
+      "totalApprovedIhpUsd": 40342197.52,
+      "averageApprovedPerApplicationUsd": 2048.76,
+      "owner": {
+        "zipRows": 110,
+        "validRegistrations": 58067,
+        "approvedForFemaAssistance": 19691,
+        "totalApprovedIhpUsd": 40342197.52,
+        "rentalUsd": 6519231.01,
+        "repairReplaceUsd": 20185738.81,
+        "otherNeedsUsd": 13615991.51
+      },
+      "renter": null
+    },
+    {
+      "state": "PR",
+      "county": "Bayamon (Municipio)",
+      "zipRowsRead": 60,
+      "validRegistrations": 40688,
+      "approvedForFemaAssistance": 15071,
+      "approvalRatePct": 37,
+      "totalApprovedIhpUsd": 37627283.11,
+      "averageApprovedPerApplicationUsd": 2496.67,
+      "owner": {
+        "zipRows": 60,
+        "validRegistrations": 40688,
+        "approvedForFemaAssistance": 15071,
+        "totalApprovedIhpUsd": 37627283.11,
+        "rentalUsd": 4883568.96,
+        "repairReplaceUsd": 20847225.83,
+        "otherNeedsUsd": 11887006.39
+      },
+      "renter": null
+    },
+    {
+      "state": "PR",
+      "county": "Arecibo (Municipio)",
+      "zipRowsRead": 33,
+      "validRegistrations": 21812,
+      "approvedForFemaAssistance": 9646,
+      "approvalRatePct": 44.2,
+      "totalApprovedIhpUsd": 34187382.55,
+      "averageApprovedPerApplicationUsd": 3544.2,
+      "owner": {
+        "zipRows": 33,
+        "validRegistrations": 21812,
+        "approvedForFemaAssistance": 9646,
+        "totalApprovedIhpUsd": 34187382.55,
+        "rentalUsd": 2876232.54,
+        "repairReplaceUsd": 18115908.1,
+        "otherNeedsUsd": 13193256.76
+      },
+      "renter": null
+    }
+  ],
+  "_sample": {
+    "kind": "captured",
+    "note": "Trimmed live /assistance/counties response (Hurricane Maria, Puerto Rico, owners).",
+    "capturedAt": "2026-11-21T18:04:35Z"
+  }
+}
