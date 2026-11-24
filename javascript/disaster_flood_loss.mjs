@@ -5,9 +5,9 @@
 //   node disaster_flood_loss.mjs --mode=disasters --state=FL --year=2024
 //   node disaster_flood_loss.mjs --demo
 //
-// API: https://rapidapi.com/김태욱/api/us-disaster-flood-loss-api
-// The listing is published as "US Disaster & Flood Loss API"; replace the HOST
-// marker once its RapidAPI slug is final (see PLACEHOLDERS.md).
+// API: https://rapidapi.com/김태욱/api/us-disaster-flood-loss-intelligence-api
+// The listing "US Disaster & Flood Loss Intelligence API" is live; HOST is its
+// final RapidAPI gateway host.
 
 import { rapidapi, sample, demoBanner, table, money, num, clip, parseArgs } from './client.mjs';
 

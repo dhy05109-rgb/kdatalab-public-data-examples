@@ -140,7 +140,8 @@ not a screening result.
 
 ## 10. US Consumer Finance Complaint & Fair-Lending API
 
-Host `us-consumer-finance-complaint-fair-lending-api.p.rapidapi.com` (expected `us-consumer-finance-complaint-fair-lending-api.p.rapidapi.com`)
+Host `us-consumer-finance-complaint-fair-lending-api.p.rapidapi.com`
+· [listing](https://rapidapi.com/%EA%B9%80%ED%83%9C%EC%9A%B1/api/us-consumer-finance-complaint-fair-lending-api)
 
 | Endpoint | Parameters |
 |----------|------------|
@@ -156,7 +157,8 @@ days are incomplete by definition.
 
 ## 11. US Disaster & Flood Loss API
 
-Host `us-disaster-flood-loss-intelligence-api.p.rapidapi.com` (expected `us-disaster-flood-loss-intelligence-api.p.rapidapi.com`)
+Host `us-disaster-flood-loss-intelligence-api.p.rapidapi.com`
+· [listing](https://rapidapi.com/%EA%B9%80%ED%83%9C%EC%9A%B1/api/us-disaster-flood-loss-intelligence-api)
 
 | Endpoint | Parameters |
 |----------|------------|

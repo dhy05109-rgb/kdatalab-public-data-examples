@@ -5,11 +5,11 @@
 > (`https://k-data-lab.pages.dev`) are now live and replaced in all files. This document
 > is kept for reference.
 
-| Marker | Meaning | Replace with |
-|--------|---------|--------------|
-| `us-consumer-finance-complaint-fair-lending-api.p.rapidapi.com` | RapidAPI 10 (CFPB complaints + HMDA) gateway host | the listing's `X-RapidAPI-Host`, expected `us-consumer-finance-complaint-fair-lending-api.p.rapidapi.com` |
-| `us-disaster-flood-loss-intelligence-api.p.rapidapi.com` | RapidAPI 11 (FEMA + NFIP) gateway host | the listing's `X-RapidAPI-Host`, expected `us-disaster-flood-loss-api.p.rapidapi.com` |
-| `https://k-data-lab.pages.dev` | the Cloudflare Pages developer hub | `https://<project>.pages.dev` or the custom domain |
+| Marker | Meaning | Replacement (live) |
+|--------|---------|--------------------|
+| `us-consumer-finance-complaint-fair-lending-api.p.rapidapi.com` | RapidAPI 10 (CFPB complaints + HMDA) gateway host | the listing's `X-RapidAPI-Host` — matches the marker |
+| `us-disaster-flood-loss-intelligence-api.p.rapidapi.com` | RapidAPI 11 (FEMA + NFIP) gateway host | the listing's `X-RapidAPI-Host` — matches the marker |
+| `https://k-data-lab.pages.dev` | the Cloudflare Pages developer hub | the deployed project's domain (live) |
 
 ## Where each marker appears
 
@@ -30,7 +30,7 @@ grep -rl '\[PENDING_10_URL\]' . --exclude-dir=.git \
 
 # 11 - FEMA + NFIP
 grep -rl '\[PENDING_11_URL\]' . --exclude-dir=.git \
-  | xargs sed -i 's|\[PENDING_11_URL\]|us-disaster-flood-loss-api.p.rapidapi.com|g'
+  | xargs sed -i 's|\[PENDING_11_URL\]|us-disaster-flood-loss-intelligence-api.p.rapidapi.com|g'
 
 # hub site
 grep -rl '\[PENDING_HUB_URL\]' . --exclude-dir=.git \
@@ -55,8 +55,7 @@ These are not markers because they are sentences, not hosts:
 1. `README.md` catalog rows for 10 and 11: change **publishing** to **live**, and turn the
    names into links to
    `https://rapidapi.com/%EA%B9%80%ED%83%9C%EC%9A%B1/api/us-consumer-finance-complaint-fair-lending-api`
-   and `…/us-disaster-flood-loss-api` (use the final slug — check the listing URL, RapidAPI
-   may append a number if the slug is taken).
+   and `…/us-disaster-flood-loss-intelligence-api`.
 2. `README.md` Apify catalog rows 10 and 11: drop **coming soon** and add links to
    `https://apify.com/livable_handloom/biopharma-fda-intel-scraper` and
    `https://apify.com/livable_handloom/us-federal-grants-awards-scraper` once the Actors are

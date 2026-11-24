@@ -20,7 +20,7 @@ covering a named storm.
     python disaster_flood_intel.py --demo
 
 API: US Disaster & Flood Loss API (RapidAPI)
-     https://rapidapi.com/김태욱/api/us-disaster-flood-loss-api
+     https://rapidapi.com/김태욱/api/us-disaster-flood-loss-intelligence-api
 Data: OpenFEMA v2 DisasterDeclarationsSummaries, HousingAssistanceOwners/Renters,
       v3 NfipClaims (public domain, redacted by FEMA - no names or street addresses).
 """
@@ -31,9 +31,9 @@ import argparse
 
 import kdatalab_client as kd
 
-# us-disaster-flood-loss-intelligence-api.p.rapidapi.com Replace this marker once the RapidAPI listing is public.
+# RapidAPI 11 (FEMA + NFIP) gateway host — the listing is live.
 HOST = "us-disaster-flood-loss-intelligence-api.p.rapidapi.com"
-SIGNUP_URL = "https://rapidapi.com/%EA%B9%80%ED%83%9C%EC%9A%B1/api/us-disaster-flood-loss-api"
+SIGNUP_URL = "https://rapidapi.com/%EA%B9%80%ED%83%9C%EC%9A%B1/api/us-disaster-flood-loss-intelligence-api"
 SAMPLE_DISASTERS = "fema_disasters.json"
 SAMPLE_FLOOD = "flood_claims.json"
 SAMPLE_COUNTY = "fema_county.json"

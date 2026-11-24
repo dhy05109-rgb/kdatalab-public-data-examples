@@ -29,7 +29,7 @@ import argparse
 
 import kdatalab_client as kd
 
-# us-consumer-finance-complaint-fair-lending-api.p.rapidapi.com Replace this marker once the RapidAPI listing is public.
+# RapidAPI 10 (CFPB complaints + HMDA) gateway host — the listing is live.
 HOST = "us-consumer-finance-complaint-fair-lending-api.p.rapidapi.com"
 SIGNUP_URL = "https://rapidapi.com/%EA%B9%80%ED%83%9C%EC%9A%B1/api/us-consumer-finance-complaint-fair-lending-api"
 SAMPLE_COMPLAINTS = "cfpb_complaints.json"

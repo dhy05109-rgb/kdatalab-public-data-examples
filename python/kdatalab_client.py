@@ -31,7 +31,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SAMPLES_DIR = ROOT / "samples"
 
 DEFAULT_TIMEOUT = 60
-USER_AGENT = "kdatalab-examples/1.0 (+https://github.com/kdatalab)"
+USER_AGENT = "kdatalab-examples/1.0 (+https://github.com/dhy05109-rgb/kdatalab-public-data-examples)"
 
 
 class ApiError(RuntimeError):
